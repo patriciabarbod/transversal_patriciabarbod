@@ -1,5 +1,42 @@
-/* header */
-header {
+
+
+.clickable-logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;  
+    margin: 0 auto;
+}
+
+.mainlogo {
+    width: 250px;  
+    height: auto;
+    display: block;
+}
+
+.navigationvar ul{
     
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#be97dc;
+  display: flex;
+  justify-content: center;
+
+
+}
+.navigationvar ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+   font-family: "Quantico", sans-serif;
+ 
+}
+
+.navigationvar ul li a:hover {
+  background-color: #ffffff;
+  transition: background-color 0.2s;
+  color: #be97dc;
+
 }
